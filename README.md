@@ -25,13 +25,16 @@ Usado para manipulação de arrays. Recebe uma função como argumento e percorr
 
 .reduce()<br>
 Manipulação de dados, usado quando se há necessidade de reduzir um array em um único dado.
-Transformar dados 
-toFixed()
-forEach()
+ 
+.toFixed()<br>
+Usado para formatação de números decimais.
+
+.forEach()<br>
+Manipulação de arrays. Recebe uma função como parametro que será executada cp
 
 
-push()
-trim()
+.push()
+.trim()
 
 
 prepend()
