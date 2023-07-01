@@ -3,7 +3,7 @@
 ![Captura de tela 2023-06-28 - 21 00 32](https://github.com/vhasckel/controle-de-despesas/assets/85519759/92c7729a-e22b-46e3-94dc-2d8b80f7f754)
 
 
-O app permite adicionar suas despesas, receitas e saldo total atualizado de acordo com suas movimentações.<br>
+O app permite adicionar suas despesas e receitas, tendo o saldo total atualizado de acordo com suas movimentações.<br>
 
 ### Features usadas
 
