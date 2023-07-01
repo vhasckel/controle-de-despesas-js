@@ -7,34 +7,39 @@ O app permite adicionar suas despesas, receitas e saldo total atualizado de acor
 
 ### Features usadas
 
-localStorage()<br>
+**localStorage()**<br>
 API do navegador que permite persistir dados. Na aplicação salva a lista e os valores das transações para nao serem perdidas ao recarregar a página.
 <br>
 
-Math.abs()<br>
+**Math.abs()**<br>
 Usado para retirar o operador do número.
 
-Math.round()<br>
+**Math.round()**<br>
 Retorna o valor arredondado do inteiro mais próximo. Foi usado junto ao Math.random() para gerar um ID para cada transação.
 
-Math.random()<br>
+**Math.random()**<br>
 Usado para gerar um número pseudoaleatório entre 0 e 1. Na aplicação foi usado para gerar uma ID para cada transação, junto do Math.round() para arredondar para o inteiro mais próximo.
 
-.filter()<br>
+**.filter()**<br>
 Usado para manipulação de arrays. Recebe uma função como argumento e percorre cada item do array genradno um novo array com os dados que passaram no teste.
 
-.reduce()<br>
+**.forEach()**<br>
+Manipulação de arrays. Recebe uma função como parametro que será executada para cada item da array.
+
+**.reduce()**<br>
 Manipulação de dados, usado quando se há necessidade de reduzir um array em um único dado.
  
-.toFixed()<br>
+**.toFixed()**<br>
 Usado para formatação de números decimais.
 
-.forEach()<br>
-Manipulação de arrays. Recebe uma função como parametro que será executada cp
+
+**.push()**<br>
+Método para adicionar um ou mais elementos ao final de um array.
 
 
-.push()
-.trim()
+**.trim()**<br>
+Método usado para remover espaços em branco encontrados no começo ou ao final de um texto.
 
 
-prepend()
+**.prepend()**<br>
+Método para inserir conteúdo no início de um elemento HTML, assim, sempre que alguma lista é atualizada esse conteúdo é sempre fixado no índice 0.
